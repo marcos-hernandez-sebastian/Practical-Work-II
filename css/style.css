@@ -1,0 +1,187 @@
+/* =========================================================
+   HOJA DE ESTILOS GLOBAL
+   Fichero CSS comun a TODAS las paginas HTML del proyecto.
+   ========================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1faee;
+  color: #1d1d1d;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #457b9d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Cabecera / Navegacion ---------- */
+
+header {
+  background-color: #1d3557;
+  color: white;
+  padding: 15px;
+}
+
+header h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  border-bottom: 2px solid #e63946;
+}
+
+/* ---------- Contenido principal ---------- */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #457b9d;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* ---------- Cajas de contenido ---------- */
+
+.box {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* ---------- Tabla (Degree) ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #457b9d;
+  color: white;
+}
+
+/* ---------- Lista de enlaces (Net) ---------- */
+
+.lista-enlaces li {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* ---------- Formulario (Contact) ---------- */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c5303d;
+}
+
+/* ---------- Sobre mi ---------- */
+
+.fotos {
+  margin: 10px 0;
+}
+
+.fotos img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.redes a {
+  margin-right: 15px;
+}
+
+/* ---------- Pie de pagina ---------- */
+
+footer {
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

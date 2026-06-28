@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | [TU NOMBRE]</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>[TU NOMBRE]</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre mi</a></li>
+        <li><a href="topic.html">Topic</a></li>
+        <li><a href="net.html">Net</a></li>
+        <li><a href="degree.html">Degree</a></li>
+        <li><a href="contact.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contacto</h2>
+      <div class="box">
+        <p>¿Quieres ponerte en contacto conmigo? Rellena el siguiente formulario.</p>
+
+        <!-- IMPORTANTE: este formulario es solo de maquetacion (HTML puro).
+             No tiene ningun script ni "action" que envie o guarde los datos,
+             tal y como exige el enunciado. El boton no realiza ninguna accion real. -->
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electronico</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje">
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aqui..." required></textarea>
+          </div>
+
+          <button type="button">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 [TU NOMBRE]. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
