@@ -1,8 +1,3 @@
-/* =========================================================
-   HOJA DE ESTILOS GLOBAL
-   Fichero CSS comun a TODAS las paginas HTML del proyecto.
-   ========================================================= */
-
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +24,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ---------- Cabecera / Navegacion ---------- */
 
 header {
   background-color: #1d3557;
@@ -60,7 +54,6 @@ nav ul li a.active {
   border-bottom: 2px solid #e63946;
 }
 
-/* ---------- Contenido principal ---------- */
 
 main {
   max-width: 900px;
@@ -86,7 +79,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* ---------- Cajas de contenido ---------- */
 
 .box {
   background-color: white;
@@ -96,7 +88,6 @@ p {
   margin-bottom: 15px;
 }
 
-/* ---------- Tabla (Degree) ---------- */
 
 table {
   width: 100%;
@@ -114,7 +105,6 @@ th {
   color: white;
 }
 
-/* ---------- Lista de enlaces (Net) ---------- */
 
 .lista-enlaces li {
   background-color: white;
@@ -123,7 +113,6 @@ th {
   margin-bottom: 10px;
 }
 
-/* ---------- Formulario (Contact) ---------- */
 
 .form-group {
   margin-bottom: 15px;
@@ -162,7 +151,6 @@ button:hover {
   background-color: #c5303d;
 }
 
-/* ---------- Sobre mi ---------- */
 
 .fotos {
   margin: 10px 0;
@@ -177,7 +165,6 @@ button:hover {
   margin-right: 15px;
 }
 
-/* ---------- Pie de pagina ---------- */
 
 footer {
   background-color: #1d3557;

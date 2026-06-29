@@ -1,12 +1,10 @@
-# Sistema
+
 .DS_Store
 Thumbs.db
 
-# Editores / IDEs
 .vscode/
 *.suo
 *.user
 
-# Ficheros temporales
 *.log
 *.tmp
